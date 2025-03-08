@@ -44,7 +44,7 @@ function sendMessage() {
   fetch("https://openrouter.ai/api/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer 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",
+      "Authorization": "Bearer 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",
       "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
       "X-Title": "ColdChatbot", // Optional. Site title for rankings on openrouter.ai.
       "Content-Type": "application/json"
